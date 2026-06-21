@@ -13,7 +13,6 @@ class FilamentMetaServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('filament-meta')
-            ->hasConfigFile()
-            ->hasViews('filament-meta');
+            ->hasConfigFile();
     }
 }
